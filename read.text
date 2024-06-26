@@ -13,3 +13,7 @@ git branch -M main : Renomeia a branch atual para 'main' (assumindo que já exis
 git remote add origin (junto com o link do repositório) : Adiciona um repositório remoto chamado 'origin' com o link fornecido.
 
 git push -u origin main : Envia os commits locais da branch 'main' para o repositório remoto 'origin', definindo 'origin/main' como upstream padrão.
+
+
+
+Quando o arquivo já estiver no git apenas repita o: git add ., git commit -m "frase" e git push. 
