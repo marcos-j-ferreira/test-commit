@@ -2,18 +2,17 @@
 
 Comandos: 
 
-git init :  Inicializa um repositório Git novo localmente.
+- git init :  Inicializa um repositório Git novo localmente.
 
-git add . +  Adiciona todos os arquivos modificados ao índice para serem preparados para commit.
+- git add . +  Adiciona todos os arquivos modificados ao índice para serem preparados para commit.
 
-git commit -m "primeiro commit" :  Registra as mudanças adicionadas ao índice com uma mensagem de commit específica.
+- git commit -m "primeiro commit" :  Registra as mudanças adicionadas ao índice com uma mensagem de commit específica.
 
-git branch -M main : Renomeia a branch atual para 'main' (assumindo que já existe uma branch criada).
+- git branch -M main : Renomeia a branch atual para 'main' (assumindo que já existe uma branch criada).
 
-git remote add origin (junto com o link do repositório) : Adiciona um repositório remoto chamado 'origin' com o link fornecido.
+- git remote add origin (junto com o link do repositório) : Adiciona um repositório remoto chamado 'origin' com o link fornecido.
 
-git push -u origin main : Envia os commits locais da branch 'main' para o repositório remoto 'origin', definindo 'origin/main' como upstream padrão.
+- git push -u origin main : Envia os commits locais da branch 'main' para o repositório remoto 'origin',
+definindo 'origin/main' como upstream padrão.
 
-
-
-Quando o arquivo já estiver no git apenas repita o: git add ., git commit -m "frase" e git push. 
+= Quando o arquivo já estiver no git apenas repita o: git add ., git commit -m "frase" e git push. 
