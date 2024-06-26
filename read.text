@@ -1,4 +1,4 @@
--Tenho a inteção de aprender a fazer commit.
+-Tenho a intenção de aprender a fazer commit.
 
 Comandos: 
 
@@ -16,3 +16,5 @@ Comandos:
 definindo 'origin/main' como upstream padrão.
 
 = Quando o arquivo já estiver no git apenas repita o: git add ., git commit -m "frase" e git push. 
+
+= Para puxar uma alteração do git, somente utilize o git pull.
