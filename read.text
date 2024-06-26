@@ -2,9 +2,14 @@
 
 Comandos: 
 
-git init 
-git add . 
-git commit -m "primeiro commit"
-git branch -M main 
-git remote add origin (junto com o link do repositório) 
-git push -u origin main 
+git init :  Inicializa um repositório Git novo localmente.
+
+git add . +  Adiciona todos os arquivos modificados ao índice para serem preparados para commit.
+
+git commit -m "primeiro commit" :  Registra as mudanças adicionadas ao índice com uma mensagem de commit específica.
+
+git branch -M main : Renomeia a branch atual para 'main' (assumindo que já existe uma branch criada).
+
+git remote add origin (junto com o link do repositório) : Adiciona um repositório remoto chamado 'origin' com o link fornecido.
+
+git push -u origin main : Envia os commits locais da branch 'main' para o repositório remoto 'origin', definindo 'origin/main' como upstream padrão.
